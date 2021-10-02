@@ -1,0 +1,60 @@
+table{
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #999;
+    background-color: #555;
+}
+
+table th{
+    padding: 5px 8px 8px;
+    background-color: #222;
+    border-right: 1px #999;
+    color: #ddd;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+table td{
+    padding: 10px 8px;
+    border: 1px solid #999;
+    font-size: 0.8em;
+    background-color: #666;
+}
+
+form{
+    width: 960px;
+    margin: 10px 0;
+    padding: 5px 20px 10px;
+    border: 1px solid #999;
+}
+
+form label{
+    font-weight: 700;
+}
+
+form textarea{
+    width: 300px;
+    padding: 5px;
+    background-color: #eee;
+    font-size: 1em;
+    color: #333;
+    height: 300px;
+    line-height: 1.2em;
+}
+
+form .button{
+    margin: 20px 30px 0 0;
+    padding: 6px 30px;
+    font-size: .75em;
+    color: white;
+    font-weight: 700;
+    background-color: #555;
+    border: none;
+    cursor: default;
+    transition: 0.75s;
+}
+
+form .button:hover{
+    background-color: #ef3e36;
+}
+

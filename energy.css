@@ -1,0 +1,43 @@
+#map{
+    display: block;
+    margin: 30px auto 20px;
+}
+
+.infoBox{
+    width: 940px;
+    margin: 40px auto;
+    padding: 25px 30px 30px;
+    background-color: #444;
+    height: 200px;
+}
+
+.infoBox h3{
+    display: block;
+    margin-bottom: 3px;
+    padding-bottom: 4px;
+    width: 550px;
+    border-bottom: 1px solid #999;
+    padding-top: 0;
+}
+
+.infoBox p{
+    display: block;
+    width: 550px;
+}
+
+.infoBox a{
+    transition: 0.5s;
+}
+
+.infoBox a:link, .infoBox a:visited{
+    color: #bbb;
+}
+
+.infoBox a:hover, .infoBox a:active{
+    color: #ef3e36;
+}
+
+.floatRightImg{
+    float: right;
+}
+
